@@ -1,0 +1,139 @@
+.add-book-btn, .book-label, .author-label {
+  display: none; }
+
+.add-book-section {
+  margin: 20px 0 30px 10px; }
+
+.add-book {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-style: italic; }
+
+.header {
+  background-color: green; }
+  .header > div {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 700; }
+  .header > div:first-child {
+    margin-left: 20px;
+    width: 130px;
+    margin-right: 0; }
+
+.glyphicon-trash {
+  font-size: 17px;
+  color: brown; }
+
+.signIn {
+  color: black;
+  margin-right: 40px;
+  width: 450px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto; }
+
+.tryBook {
+  color: #fff; }
+  .tryBook:hover {
+    color: yellow; }
+  .tryBook .bookTooltip {
+    max-width: 445px;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    left: 130px;
+    top: 10px;
+    z-index: 2;
+    background: #9fd4d4; }
+    .tryBook .bookTooltip .tooltipCaption {
+      color: orangered;
+      font-size: 25px;
+      font-weight: 700; }
+  .tryBook:hover .bookTooltip {
+    display: block; }
+
+.my-new-list {
+  padding: 20px;
+  margin: 30px;
+  border: 5px solid blueviolet;
+  border-radius: 5px; }
+  .my-new-list li {
+    padding: 10px;
+    cursor: pointer; }
+    .my-new-list li .test {
+      font-weight: 700; }
+    .my-new-list li .glyphicon-trash {
+      margin-left: 10px; }
+
+.toBook,
+.glyphicon-shopping-cart {
+  color: #fff; }
+
+.glyphicon-tower {
+  color: #fff; }
+
+.toBook div {
+  margin-top: -10px; }
+
+.siteName {
+  font-size: 25px;
+  font-weight: 700; }
+
+.glyphicon-book {
+  margin-top: 20px;
+  font-size: 25px;
+  transform: rotate(20deg); }
+
+.settings {
+  color: #fff; }
+
+.pdf-viewer {
+  float: right; }
+  .pdf-viewer::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.glyphicon-trash, .glyphicon-search, .glyphicon-plus {
+  cursor: pointer; }
+
+.library, .settings {
+  color: #fff;
+  margin-right: 30px;
+  width: 100px; }
+  .library:hover a, .settings:hover a {
+    color: yellow;
+    text-decoration: none; }
+  .library:hover span, .settings:hover span {
+    color: yellow; }
+
+.searchBox {
+  position: relative;
+  border-top-right-radius: 5px 5px;
+  width: 684px; }
+  .searchBox .search-wrapper {
+    display: flex; }
+  .searchBox .searchField {
+    padding: 10px;
+    width: 600px;
+    border-left-width: 0px; }
+  .searchBox .glyphicon-search {
+    background-color: orchid;
+    position: absolute;
+    top: 2px;
+    right: 40px;
+    font-size: 20px;
+    padding: 10.5px 13px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px; }
+  .searchBox .search-dropdown {
+    background-color: lightgray;
+    width: 50px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-color: gray; }
+    .searchBox .search-dropdown:hover {
+      background-color: darkgray; }
+
+/*# sourceMappingURL=eLibrary.css.map */
